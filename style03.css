@@ -32,7 +32,7 @@
 	}
 /*=========bettter section start=======*/
 .Bettter-section{
-	background-image:linear-gradient(rgba( 0,0,0,0.60),rgba( 0,0,0,0.55)),url("C:/Users/abinesh/Desktop/FABEVY/GIT/-Bootstrap01/images/hero.jpg");
+	background-image:linear-gradient(rgba( 0,0,0,0.60),rgba( 0,0,0,0.55)),url("images/hero.jpg");
 	background-position:center;
 	background-size:cover;
     height:500px;
