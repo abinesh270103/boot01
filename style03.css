@@ -6,7 +6,7 @@
     width: 100%;
     z-index: 3;
 }
-}
+
 .navbar-brand{
 font-size:30px;
 font-weight:600;
@@ -16,7 +16,7 @@ font-size:40px;
 color:red;
 }
 .navbar-nav li{
-margin-right:20px;
+	margin-right:10px;
 font-size:15px;
 font-family: "open sans", sans-serif;
 }
@@ -177,32 +177,11 @@ padding:50px 0;
 ul{
 	padding-left:0;
 }
-.modi h5{
-	font-size:18px;
-	color:#000;
-}
-.modi i{
-	color:#000;
-}
-.modi i a:hover{
-	background:blue;
-	color:red;
-}
-.nav .nav-link.active{
-	background-color:red;
-	color:#fff;
-}
-.nav-item .nav-link.active i,span{
-	color:#fff;
-}
-.nav-item .nav-link:hover i{
-	color:#fff;
-}
-.tab-content li{
-	list-style-type:none;
-}
 .abt-tab{
 border:none;
+}
+.nav .nav-item a{
+	color:#000;
 }
 .abt-tab .nav-item{
 width:25%;
@@ -219,8 +198,7 @@ align-items:flex-start;
 padding:20px;
 }
 .abt-tab .nav-item .nav-link:hover{
-color:white;
-background-color:#e03a3c;
+color:red;
 }
 .abt-tab .nav-item  .nav-link span{
 line-height:20px;
@@ -228,10 +206,21 @@ font-size:20px;
 }
 .abt-tab .nav-item .nav-link >iconify-icon{
 margin-right:10px;
-
+}
+.abt-tab .nav-item .nav-link.active{
+	background-color:#e03a3c;
+	color:#fff;
+	border-color:#e03a3c;
+	
 }
 .tab-pane{
-padding-top:20px;
+	padding-top:20px;
+}
+.tab-pane p{
+	color:gray;
+}
+.tab-pane ul{
+	color:gray;
 }
 /*=========services section start=======*/
 .services-section{
@@ -248,18 +237,22 @@ transform:skewY(-3deg);
 background-color:#000;
 z-index:-1;
 }
-.services{
+.services h2{
 text-align:center;
 color:#fff;
 position:relative;
 }
-.services::after{
+.services p{
+	text-align:center;
+	color:#fff;
+}
+.services h2::after{
 content: "";
 position: absolute;
 top:45px;
 text-align:center;
 width:50px;
-left:530px;
+left:calc(50% - 30px);
 border-top:2px solid red;
 }
 .services-content{
@@ -535,7 +528,7 @@ background-color:#000;
 }
 .team-content{
 background-color:#fff;
-height:350px;
+padding-bottom:10px;
 border-radius:5px;
 }
 /*===contact-sec start===*/
@@ -596,17 +589,17 @@ font-family: 'Raleway', sans-serif;
 .base span{
 color:#dc3545;
 }
-.footer-items{
+.footer-items h6{
 position:relative
 }
 .footer-items h6::after{
 content: "";
 position: absolute;
-top:24px;
+bottom:0;
 text-align:center;
 width:30px;
 border-top:2px solid red;
-right:229px;
+right:calc(100% - 30px);
 }
 .base1 a{
 color:#fff;
