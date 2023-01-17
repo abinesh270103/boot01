@@ -109,7 +109,6 @@ z-index:-1;
 }
 .about-content{
 color:#fff;
-height:300px;
 }
 .about-content h1{
 font-size:35px;
@@ -134,7 +133,6 @@ color:#fff;
 }
 .about{
 color:#fff;
-height:190px;
 }
 .about h2{
 font-size:20px;
@@ -561,6 +559,7 @@ line-height:45px;
 }
 .contact-form{
 	box-shadow:0 0 19px #ccc;
+	padding:15px 15px;
 }
 .form input{
 margin-bottom: 20px;
@@ -625,7 +624,7 @@ font-family: "open sans", sans-serif;
 color:#fff;
 }
 .out-side{
-border:3px solid #000;
+border:3px solid #fff;
 border-radius:5px;
 background: #fff;
 padding:1px;	
@@ -642,7 +641,8 @@ background-color: #dc3545;
 text-align: center;
 font-size: 16px;
 color: #fff;
-height: 36px;
+height: 40px;
+top:-1px;
 border: 1px solid #dc3545;
 padding: 0px 20px;
 }
