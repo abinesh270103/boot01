@@ -1,0 +1,20 @@
+@media (max-width:768px){
+   .Bettter h1{
+	   font-size:35px;
+   } 
+   .Bettter p{
+	   font-size:16px;
+   }
+   .about-content{
+	   text-align:center;
+   }
+   .about{
+	   text-align:center;
+   }
+    .services h2:after{
+		top:30px;
+	}   
+	.services h2{
+		font-size:20px;
+	}
+}
